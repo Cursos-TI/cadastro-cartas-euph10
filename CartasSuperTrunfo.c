@@ -1,15 +1,94 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+int main(){
+    printf("Super Trunfo de Países\n");
 
-int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+    char Estado;
+    char Código[30];
+    char Cidade[30];
+    int População;
+    float Área;
+    float Pib;
+    int NPT;
 
-  // Área para entrada de dados
+    printf("Preencha os dados da carta\n");
 
-  // Área para exibição dos dados da cidade
+    printf("Estado: \n");
+    scanf("%c", &Estado);
 
-return 0;
+    printf("Codigo: \n");
+    scanf("%s", &Código);
+
+    printf("Cidade: \n");
+    scanf("%s", &Cidade);
+
+    printf("População: \n");
+    scanf("%d", &População);
+
+    printf("Área: \n");
+    scanf("%f", &Área);
+
+    printf("Pib: \n");
+    scanf("%f", &Pib);
+
+    printf("Número de pontos turísticos: \n");
+    scanf("%d", &NPT);
+
+    printf("Carta 1: \n");
+    printf("Estado: %c\n",Estado);
+    printf("Código da carta: %s\n",Código);
+    printf("Cidade: %s\n",Cidade);
+    printf("População: %d\n",População);
+    printf("Área: %2.f\n",Área);
+    printf("Pib: %.2f\n",Pib);
+    printf("Números de pontos turísticos: %d\n",NPT);
+    
+    char estado;
+    char código[30];
+    char cidade[30];
+    int população;
+    float área;
+    float pib;
+    int nPT;
+
+    printf("Preencha os dados da carta\n");
+
+     printf("Estado: \n");
+    scanf("%c", &estado);
+
+    printf("Codigo: \n");
+    scanf("%s", &código);
+
+    printf("Cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("População: \n");
+    scanf("%d", &população);
+
+    printf("Área: \n");
+    scanf("%f", &área);
+
+    printf("Pib: \n");
+    scanf("%f", &pib);
+
+    printf("Número de pontos turísticos: \n");
+    scanf("%d", &nPT);
+    
+    printf("Carta 2: \n");
+    printf("Estado: %c\n",estado);
+    printf("Código da carta: %s\n",código);
+    printf("Cidade: %s\n",cidade);
+    printf("População: %d\n",população);
+    printf("Área: %2.f\n",área);
+    printf("Pib: %.2f\n",pib);
+    printf("Números de pontos turísticos: %d\n",nPT);
+
+
+
+
+    
+   return 0;
+
+
+
 } 
