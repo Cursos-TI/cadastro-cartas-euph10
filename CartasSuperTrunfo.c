@@ -6,7 +6,7 @@ int main(){
     char Estado;
     char Codigo[30];
     char Cidade[30];
-    int Populacao;
+    float Populacao;
     float Area;
     float Pib;
     int NPT;
@@ -25,7 +25,7 @@ int main(){
     scanf("%s", &Cidade);
 
     printf("População: \n");
-    scanf("%d", &Populacao);
+    scanf("%f", &Populacao);
 
     printf("Área: \n");
     scanf("%f", &Area);
@@ -36,11 +36,11 @@ int main(){
     printf("Número de pontos turísticos: \n");
     scanf("%d", &NPT);
 
-    densidade = (float)(Populacao / Area);
+    densidade = (Populacao / Area);
 
     printf("Densidade populacinal: %2.f\n",densidade);
 
-    pibpercapita = (float)(Pib / Populacao);
+    pibpercapita = (Pib / Populacao);
 
     printf("Pib per capita: %2.f\n", pibpercapita);
 
@@ -58,7 +58,7 @@ int main(){
     char estado[10];
     char codigo[30];
     char cidade[30];
-    int populacao;
+    float populacao;
     float area;
     float pib;
     int nPT;
@@ -76,7 +76,7 @@ int main(){
     scanf("%s", &cidade);
 
     printf("População: \n");
-    scanf("%d", &populacao);
+    scanf("%F", &populacao);
 
     printf("Área: \n");
     scanf("%f", &area);
@@ -87,11 +87,11 @@ int main(){
     printf("Número de pontos turísticos: \n");
     scanf("%d", &nPT);
     
-    Densidade = (float)(populacao / area);
+    Densidade = (populacao / area);
 
     printf("Densidade populacinal: %2.f\n",Densidade);
 
-    Pibpercapita = (float)(pib / populacao);
+    Pibpercapita = (pib / populacao);
 
     printf("Pib per capita: %2.f\n", Pibpercapita);
 
